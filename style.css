@@ -23,6 +23,7 @@ body{
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-bottom: 20px;
 }
 .rgb,
@@ -46,13 +47,19 @@ body{
     width: 90px;
     text-align: center;
 }
-.copiar-cor{
-    width: 60px;
+.cor-code{
+    display: flex;
+    align-items: center;
+
+}
+
+#btn-copiar-rgb,
+#btn-copiar-hex{
+    width: 100px;
     height: 30px;
     background-color: #313132;
     color: white;
     cursor: pointer;
-    margin-left: 80px;
 }
 #gerar-cor{
     height: 40px;
